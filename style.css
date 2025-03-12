@@ -4,15 +4,8 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-
-body {
-    background-image: url('background landing page.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
+    background-color: #fce4ec; /* Pink pastel sebagai latar belakang */
+    color: #4a148c; /* Ungu tua untuk teks */
     font-family: 'Arial', sans-serif;
     text-align: center;
 }
@@ -28,14 +21,15 @@ h1, h2 {
     font-weight: bold;
     margin: 20px;
     font-size: 36px;
-    color: #e50914;
+    color: #e91e63;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 h3 {
-    font-size: 25px; /* Ukuran font yang lebih besar */
+    font-size: 25px;
     font-weight: bold;
-    margin: 20px 0; /* Margin untuk jarak vertikal */
+    margin: 20px 0;
+    color: #d81b60; /* Pink lebih gelap */
 }
 
 .cake {
@@ -170,11 +164,11 @@ h3 {
     color: #fff; /* Warna teks putih */
     font-weight: bold;
     padding: 12px 30px; /* Ukuran padding */
-    border: 2px solid #e50914; /* Warna border mirip Netflix */
+    border: 2px solid #e91e63; /* Warna border mirip Netflix */
     border-radius: 5px; /* Bentuk sudut yang sedikit melengkung */
     text-align: center;
     position: absolute;
-    background-color: #e50914; /* Warna latar belakang merah Netflix */
+    background-color: #e91e63; /* Warna latar belakang merah Netflix */
     top: 100px;
     left: 50%;
     transform: translateX(-50%);
@@ -243,7 +237,7 @@ body.play-music {
 
 .swal2-text2 {
     opacity: 50%;
-    color:  #e50914;
+    color:  #e91e63;
 }
 
 .swal-container-netflix {
@@ -272,7 +266,7 @@ body.play-music {
 }
 
 .swal-confirm-button-netflix {
-    background-color: #e50914; /* Warna tombol Netflix */
+    background-color: #e91e63; /* Warna tombol Netflix */
     color: #fff; /* Warna teks tombol */
     border: none; /* Menghilangkan border */
     border-radius: 5px; /* Sudut membulat tombol */
