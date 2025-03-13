@@ -19,7 +19,7 @@ navigator.mediaDevices.getUserMedia({ audio: true })
             const average = sum / bufferLength;
 
             // Sesuaikan threshold agar tidak langsung mati saat halaman dimuat
-            if (average > 128) { 
+            if (average > 115) { 
                 if (!isBlowing && !isFlameOff) {
                     isBlowing = true;
                     toggleFlame(); // Mematikan api
